@@ -53,13 +53,13 @@ div [class|="col"]{
 
 textarea {
       color: grey;
-      width: 99.5%;
+      width: 75%;
       height: 150px;
       padding: 12px 20px;
       margin: 8px 0;
       display: inline-block;
-      border: 1px solid #ff884b;
-      background-color: #ff884b;
+      border: 1px solid white;
+      background-color: white;
       border-radius: 4px;
       box-sizing: border-box;
       font-size: 16px;
@@ -68,31 +68,43 @@ textarea {
 
       input[type=text], select {
       color: grey;
-      width: 49.5%;
+      width: 37%;
       padding: 12px 20px;
       margin: 8px 0;
       display: inline-block;
-      border: 1px solid #ff884b;
-      background-color: #ff884b;
+      border: 1px solid white;
+      background-color: white;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type=tel], select {
+      color: grey;
+      width: 37%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid white;
+      background-color: white;
       border-radius: 4px;
       box-sizing: border-box;
     }
 
     input[type=email], select {
       color: white;
-      width: 99.5%;
+      width: 75%;
       padding: 12px 20px;
       margin: 8px 0;
       display: inline-block;
-      border: 1px solid #ff884b;
-      background-color: #ff884b;
+      border: 1px solid white;
+      background-color: white;
       border-radius: 4px;
       box-sizing: border-box;
     
     }
       input[type=submit] {
       width: 10%;
-      background-color: #ff577f;
+      background-color: #845ec2;
       color: white;
       padding: 14px 20px;
       margin: 8px 0;
