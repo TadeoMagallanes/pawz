@@ -5,7 +5,8 @@
 }
  */
 .first{
-  background: #cdfffc;
+  /* background: #F4F9F9; */
+  background: #ffffff;
   color: rgb(56, 46, 46);
   text-align: center;
 /*   padding-left: 0;
@@ -14,7 +15,7 @@
   margin-right: 0; */
 }
 div [class|="col"]{
-   /* border: 1px solid #ffc107;  */
+  /*  border: 1px solid #ffc107;   */
 }
 
 
@@ -22,6 +23,17 @@ div [class|="col"]{
   text-decoration:none;
   font-family: 'Fredoka One', cursive;
   font-size: 22px;
+  color: inherit;
+  color: #454639;
+  /* background-color: #ffc107; */
+}
+
+.aboutUs{
+  text-decoration:none;
+  font-family: 'Fredoka One', cursive;
+  font-size: 64px;
+  color: #454639;
+  margin-top: 60px;
   
 }
 
