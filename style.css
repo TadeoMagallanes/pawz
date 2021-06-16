@@ -1,0 +1,52 @@
+/* *{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ */
+.first{
+  /* background: #F4F9F9; */
+  background: #ffffff;
+  color: rgb(56, 46, 46);
+  text-align: center;
+/*   padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0; */
+}
+div [class|="col"]{
+  /*  border: 1px solid #ffc107;   */
+}
+
+
+.logo{
+  text-decoration:none;
+  font-family: 'Fredoka One', cursive;
+  font-size: 22px;
+  color: inherit;
+  color: #454639;
+  /* background-color: #ffc107; */
+}
+
+.aboutUs{
+  text-decoration:none;
+  font-family: 'Fredoka One', cursive;
+  font-size: 64px;
+  color: #454639;
+  margin-top: 60px;
+  
+}
+
+.padre {
+  background-color: #fafafa;
+  /* margin: 1rem;
+  padding: 1rem;
+  border: 2px solid #ccc; */
+  /* IMPORTANTE */
+  text-align: center;
+}
+
+
+.derecha{
+  text-align: right;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,129 +9,161 @@
       rel="stylesheet"
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"/>
-
     <link rel="stylesheet" href="style.css" />
+    <link href="/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> 
 
-    <title>Tarea 2</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav style="background-color: #CDFFFC;" class="navbar">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
-              >
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
+        <a class="logo" class="navbar-brand" href="#">
+          PAWZ <i class="fas fa-paw"></i>
+        </a>
+        <p align="right"> 
+          <button class="btn btn-outline-danger" type="button">Register <i class="fas fa-dog"></i></button>
+          <button class="btn btn-outline-info" type="button">Sign-In <i class="fas fa-cat"></i></button>
+        </p>
       </div>
     </nav>
 
     <div class="container-fluid first">
       <div class="row">
-        <div class="col-2">Columna 1</div>
+        <br>
+        <br>
+      </div>
+      <div class="row">
+        <div class="col-2"></div>
         <div class="col-8">
-          Blanco
+          
           <div class="row">
-            <div class="col">Imagen</div>
+            <div class="col">
+              <img src="https://cdn.discordapp.com/attachments/850032849310449728/854372112068247602/Group_8.png" width=100%>
+              <!-- <img src="https://cdn.discordapp.com/attachments/850032849310449728/854198092814876712/image.png" width=100%> -->
+            </div>
           </div>
           <div class="row">
-            <div class="col">About Us</div>
+            <div class="col">
+              <h1 class="aboutUs">About Us</h1>
+            </div>
           </div>
-          <div class="row">
+          <!-- <div class="row">
             <div class="col">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
               laboriosam quibusdam libero excepturi repellendus? Doloribus
               numquam eligendi exercitationem quis eum error vel atque! Sunt
               veniam possimus corrupti quibusdam natus! Et.
             </div>
-          </div>
+          </div> -->
           <div class="row">
-            <div class="col">4</div>
+            <div class="col">
+              
+              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://cdn.discordapp.com/attachments/850032849310449728/854458384614817812/Group_20.png" class="d-block w-100"style="height:100%">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://cdn.discordapp.com/attachments/850032849310449728/854372112391602246/Group_10.png" class="d-block w-100" style="height:100%">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://cdn.discordapp.com/attachments/850032849310449728/854372113724211200/Group_9.png" class="d-block w-100" style="height:100%">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://cdn.discordapp.com/attachments/850032849310449728/854372115725811752/Group_11.png" class="d-block w-100" style="height:100%">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-2">Columna 3</div>
+        <div class="col-2"></div>
       </div>
       <div class="row">
         <div class="col-10"></div>
         <div class="col-2" style="padding: 15px 0px">
+          <br>
+          <br>
+        </div>
+      </div>
+    </div>
+
+    <div style="background-color:#CDFFFC;" class="card-footer"> 
+      <div class="row derecha">
+        <div class="col-10"></div>
+        <div class="col-2" style="padding: 15px 0px">
           <div class="btn-group">
-            <button type="button" class="btn btn-sm btn-light">AbutUS</button>
-            <button type="button" class="btn btn-light">Contact</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">About Us</button>
+            <button type="button" class="btn btn-outline-secondary">Contact</button>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="card-footer"> 
       <div class="row">
-        <div class="col-10">
-          <button>App Store</button>
-          <button>Google Play</button>
-        </div>
-        <div class="col-2">
-          <button>2021 Paws</button>
-        </div>>
-      </div>
-    </div>
+        <div class="col-9">
+          <button class="btn btn-outline-secondary" type="button">App Store <i class="fab fa-app-store"></i></button>
+          <button class="btn btn-outline-secondary" type="button">Google Play <i class="fab fa-google-play"></i></button>
 
+          
+        </div>
+        <div class="col-3">
+
+          
+        
+
+          <div class="derecha">
+
+            <span class="derecha" style="color: gray;">2021 Paws  <i class="fas fa-copyright"></i></span>
+            <a class="btn" href="https://www.youtube.com/" role="button">
+              <i class="fab fa-youtube-square"> </i>
+            </a>
+          
+            <a class="btn" href="https://es-la.facebook.com/" role="button">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a class="btn" href="https://www.instagram.com/" role="button">
+              <i class="fab fa-instagram-square"></i>
+            </a>
+          </div>
+
+        </div>
+      </div>
+      
+      
+    
+    </div>
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
