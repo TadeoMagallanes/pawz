@@ -6,7 +6,7 @@
  */
 .first{
   /* background: #F4F9F9; */
-  background: #ffffff;
+  background: white;
   color: rgb(56, 46, 46);
   text-align: center;
 /*   padding-left: 0;
@@ -50,3 +50,53 @@ div [class|="col"]{
 .derecha{
   text-align: right;
 }
+
+textarea {
+      color: grey;
+      width: 99.5%;
+      height: 150px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ff884b;
+      background-color: #ff884b;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 16px;
+      resize: none;
+      }
+
+      input[type=text], select {
+      color: grey;
+      width: 49.5%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ff884b;
+      background-color: #ff884b;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type=email], select {
+      color: white;
+      width: 99.5%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ff884b;
+      background-color: #ff884b;
+      border-radius: 4px;
+      box-sizing: border-box;
+    
+    }
+      input[type=submit] {
+      width: 10%;
+      background-color: #ff577f;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
