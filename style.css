@@ -49,6 +49,14 @@ div [class|="col"]{
   
 }
 
+.subtext{
+  text-decoration:none;
+  font-family: 'Fredoka One', cursive;
+  font-size: 30px;
+  color: #454639;
+  
+}
+
 .padre {
   background-color: #fafafa;
   /* margin: 1rem;
