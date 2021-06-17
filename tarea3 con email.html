@@ -5,28 +5,45 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+<!--BootStrap link -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"/>
-    <link rel="stylesheet" href="style.css" />
-    <link href="/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> 
-  <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">  -->
-  <script src="js/pruebas.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-  <script type="text/javascript">
-     (function() {
-        emailjs.init("user_2wDdPWJ65gWxxaA6ZWMLm");
-     })();
-  </script>
-   </script>
-  </head>
-  <body>
 
-    <nav style="background-color: #CDFFFC;" class="navbar">
+<!--Style CSS links -->
+    <link rel="stylesheet" href="style.css" />
+
+<!--Font-Awesome Link -->
+    <link href="/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+
+<!--Fonts link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+<!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+<!--JS Links -->
+  <script src="js/pruebas.js"></script>
+  
+
+<!--Email JS Link -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<!--Email API script -->
+  <script type="text/javascript">
+      (function() {
+        emailjs.init("user_2wDdPWJ65gWxxaA6ZWMLm");
+      })();
+</script>
+</head>
+
+
+<body>
+
+<!--Header -->
+    <nav id="navbar" style="background-color: #CDFFFC;" class="navbar">
       <div class="container-fluid">
         <a class="logo" class="navbar-brand" href="#">
           PAWZ <i class="fas fa-paw"></i>
@@ -37,7 +54,9 @@
         </p>
       </div>
     </nav>
+<!--Header -->
 
+<!--Content -->
     <div class="container-fluid second">
       <div class="row">
         <br>
@@ -49,8 +68,6 @@
           
           <div class="row">
             <div class="col">
-              <!-- <img src="https://cdn.discordapp.com/attachments/850032849310449728/854372112068247602/Group_8.png" width=100%> -->
-              <!-- <img src="https://cdn.discordapp.com/attachments/850032849310449728/854198092814876712/image.png" width=100%> -->
             </div>
           </div>
           <div class="row">
@@ -58,33 +75,20 @@
               <h1 class="aboutUs">Contact Us</h1>
             </div>
           </div>
-         
           <div style="background-image: url('https://cdn.discordapp.com/attachments/850032849310449726/854804782950645800/background6.png');">
-      
-            <!-- <form>
-              <br><br>
-              <h3>We'd love to hear from you!</h3>
-              <br>
-              <input type="text" id="name" placeholder="Name" maxlength="127" size="50" value="" required> <input type="tel" id="phoneNo" placeholder="Phone Number" maxlength="10" size="10" value="" required><br><br>
-              <input type="email" id="email" placeholder="Email" value="" required><br><br>
-             <input type="text" id="message" placeholder="Message" maxlength="255" style="width: 75%; height: 150px;"><br><br>
-              <input type="submit" value="Submit"><br><br><br>
-           </form>
-          </form> -->
-         
-          
+<!--Submit Body -->
       <form id="form1" onsubmit="return false">
         <br><br>
         <h3>We'd love to hear from you!</h3>
         <br>
-       <input type="text" id="name" placeholder="Name" maxlength="127" size="50" value="Name" required> <input type="tel" id="phoneNo"  placeholder="Phone Number" maxlength="12" size="10" value=""><br><br>
-       <input type="email" id="email" placeholder="Email" value="Email" required><br><br>
-       <input type="text" id="message" placeholder="Message" maxlength="255" style="width: 75%; height: 150px;"><br><br>
+        <input type="text" id="name" placeholder="Name" maxlength="127" size="50" value="Name" required> <input type="tel" id="phoneNo"  placeholder="Phone Number" maxlength="12" size="10" value=""><br><br>
+        <input type="email" id="email" placeholder="Email" value="Email" required><br><br>
+        <input type="text" id="message" placeholder="Message" maxlength="255" style="width: 75%; height: 150px;"><br><br>
       
-      <input type="submit" value="Submit" onclick="correo()"><br><br><br>  
-   </form>
-  
+        <input type="submit" value="Submit" onclick="correo()"><br><br><br>  
+      </form>
     
+  <!-- Script for Email JS-->
           <script>
             function getFormvalue(){
               let x = document.getElementsByTagName("input")[0].value;
@@ -92,19 +96,20 @@
               alert(x +" "+ y);
             }
           </script>
-          </div>
         </div>
+      </div>
         <div class="col-2"></div>
       </div>
       <div class="row">
         <div class="col-10"></div>
         <div class="col-2" style="padding: 15px 0px">
-          <br>
-          <br>
-        </div>
+        <br>
+        <br>
       </div>
     </div>
+  </div>
 
+<!--Footer -->
     <div style="background-color:#CDFFFC;" class="card-footer"> 
       <div class="row derecha">
         <div class="col-10"></div>
@@ -143,13 +148,13 @@
           </div>
 
         </div>
-      </div>
-      
-      
-    
-    </div>
-    
-    <script
+      </div>     
+    </div>   
+<!--End of Footer --> 
+
+<!--Script for BootStrap/AJAX/EMAIL --> 
+<script src="js/sticky.js"></script>
+<script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"

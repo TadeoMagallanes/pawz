@@ -132,3 +132,9 @@ textarea {
       border-radius: 4px;
       cursor: pointer;
     }
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+    }
