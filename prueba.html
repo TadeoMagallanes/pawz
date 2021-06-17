@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+
+   
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+   <script src="js/pruebas.js"></script>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+   <script type="text/javascript">
+      (function() {
+         emailjs.init("user_2wDdPWJ65gWxxaA6ZWMLm");
+      })();
+   </script>
+
+</head>
+<body> 
+
+   <form id="form1" onsubmit="return false">
+      <label>Name: </label> <label style="color: red">*</label> <br> <input type="text" id="name" maxlength="127" size="50" value="Juan" required><br><br>
+      <label>Email:</label> <label style="color: red">*</label> <br> <input type="email" id="email" value="dac@gmail.com" required><laber></laber><br><br>
+      <label>Phone Number:</label> <br> <input type="tel" id="phoneNo"  maxlength="12" size="10" value=""><br><br>
+      <label>Text:</label> <label style="color: red">*</label> <br> <input type="text" id="message" maxlength="255" style="width: 99%; height: 50px;" value="hola"><br><br>
+      
+      <input type="submit" value="Submit" onclick="correo()">   
+   </form>
+  
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
+   <script src="https://cdn.emailjs.com/dist/email.min.js" type="text/javascript"></script>
+</body>
+</html>
